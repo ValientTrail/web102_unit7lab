@@ -17,7 +17,7 @@ const ReadPosts = (props) => {
             setPosts(data);
         }
         fetchPosts().catch(console.error);
-    }, [posts]);
+    }, []);
     
     return (
         <div className="ReadPosts">
